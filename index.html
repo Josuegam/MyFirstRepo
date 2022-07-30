@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<body>
- <h1 style="color: rgb(0, 255, 21); font-size: 100px;">
-    First Project
-</h1>
+<html lang="en">
 
-<p style="color: blue; font-size: 80px ">Subaru WRX STI HyperBlue Edition</p>   
- 
-<img src="subaruWrx.jpg" style="border-radius:150px ;">
+<body>
+    <h1 style="color: rgb(0, 255, 21); font-size: 100px;">
+        First Project
+    </h1>
+
+    <p style="color: blue; font-size: 80px ">Subaru WRX STI HyperBlue Edition</p>
+
+    <img src="subaruWrx.jpg" style="border-radius:150px ;">
+    <h1>CLICK TO DISPLAY SUBARUS</h1>    
+    <button onclick="convertJsonToHtmlTable()">Click to see all subarus</button>  
+    <br>
+    <br>
+    <!-- <div id="toAppend"></div> -->
+    <table id="display_json_data" border="1"></table>
+    <button onclick="clearTable()">Clear Table</button> 
+    <script src="script.js"></script>
 </body>
+
+</html>
